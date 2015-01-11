@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+  <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/layouts/marketing.css">
+  <!--<![endif]-->
+</head>
+
+<body>
+
+<div class="header">
+  <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+    <a class="pure-menu-heading" href="">Mai Kitchen</a>
+
+    <ul>
+      <li class="pure-menu-selected"><a href="#menu">Menu</a></li>
+      <li><a href="#openingHour">Opening Hours</a></li>
+      <!-- <li><a href="#">Contact</a></li> -->
+    </ul>
+  </div>
+</div>
+
+<div class="splash-container">
+  <div class="splash">
+    <h1 class="splash-head">Simply Delicious Vietnamese Food</h1>
+    <!-- <p class="splash-subhead">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p> -->
+    <p>
+      <a href="#menu" class="pure-button pure-button-primary">Checkout Our Menu</a>
+    </p>
+  </div>
+</div>
+
+<div class="content-wrapper" id="openingHour">
+  <div class="content">
+    <!-- <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2> -->
+
+    <div class="pure-g">
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+
+        <h2 class="content-subhead is-center">
+          <!-- <i class="fa fa-rocket"></i> -->
+          Mai's Kitchen
+        </h2>
+        <h3 class="is-center">34 Wright st Ferryden Park</h3>
+        <h3 class="is-center">Adelaide, South Australia</h3>
+        <h3 class="is-center">0421 320 987</h3>
+        <p class="is-center">info@maikitchen.com.au</p>
+
+        <h3 class="is-center">MON to Thur, 09:00 - 22:00</h3>
+        <h3 class="is-center">FRI to SAT, 09:00 - 23:00</h3>
+        <h3 class="is-center">SUN 17:00 - 22:00</h3>
+      </div>
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3273.749624050747!2d138.56112199999998!3d-34.862518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c87faa8444b3%3A0x55ce3b440efc4bc3!2s34+Wright+St%2C+Ferryden+Park+SA+5010%2C+Australia!5e0!3m2!1sen!2s!4v1420887417889" width="400" height="400" frameborder="0" style="border:0" ></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ribbon l-box-lrg pure-g" id="menu">
+    <div class="pure-u-1">
+      <h2 class="content-head content-head-ribbon is-center">Menu</h2>
+      <p class="is-center">Our menu is filled with delicious Vietnamese dishes, prepared with fresh ingredients and cook to perfection for your taste bud. </p>
+      <hr>
+
+      <section class="category">
+        <h3>Entree</h3>
+        <ul>
+            <li>
+              <h4>Cuon Thit Nuong</h4>
+              <em>Soft rice paper rolls of char grilled honey pork and Vietnamese herbs </em>
+              <span class="price">$12</span>
+            </li>
+            <li>
+              <h4>Banh Bot Chien</h4>
+              <em>Aunty 5’s rice cakes with tiger prawns, caramelised pork, pork floss and shallot oil</em>
+              <span class="price">$15</span>
+            </li>
+            <li>
+              <h4>Goi Nam va Dau Phu</h4>
+              <em>Salad of Asian mushrooms, crisp bean curd and Vietnamese herbs</em>
+              <span class="price">$13</span>
+            </li>
+        </ul>
+      </section>
+
+      <hr>
+      <section class="category">
+        <h3>Main</h3>
+        <ul>
+            <li>
+              <h4>Bo Luc Lac</h4>
+              <em>O’Connor Black Angus beef strip loin wok tossed in oyster sauce and sesame</em>
+              <span class="price">$32</span>
+            </li>
+            <li>
+              <h4>Ca Nuong va Goi Hoa Chuoi </h4>
+              <em>Pan fried fish fillets with tamarind sauce and banana blossom salad </em>
+              <span class="price">$39</span>
+            </li>
+            <li>
+              <h4>Ca Ri Chay</h4>
+              <em>Tofu, eggplant and cherry tomato vegetarian yellow curry</em>
+              <span class="price">$29.5</span>
+            </li>
+        </ul>
+      </section>
+
+
+    </div>
+  </div>
+
+  <div class="content">
+    <h2 class="content-head is-center">Follow us online for special offers.</h2>
+
+    <div class="pure-g">
+      <div class="l-box-lrg pure-u-1">
+        <a href="https://www.facebook.com/MaiKitchenVietnamese?ref=br_tf" target="_blank" class="is-center"><h2><i class="fa fa-facebook-square"></i></h2></a>
+        <a href="https://www.facebook.com/MaiKitchenVietnamese?ref=br_tf" target="_blank" class="is-center"><h2><i class="fa fa-twitter-square"></i></h2></a>
+        <a href="https://www.facebook.com/MaiKitchenVietnamese?ref=br_tf" target="_blank" class="is-center"><h2><i class="fa fa-instagram"></i></h2></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer l-box is-center">
+    Design by AlmostLimitless Ltd.
+  </div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
