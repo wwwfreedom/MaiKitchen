@@ -199,6 +199,7 @@ a.pure-button-primary {
 
 .category h3{
     color:#aaa;
+
 }
 
 .category ul {
@@ -206,7 +207,7 @@ a.pure-button-primary {
 }
 
 .category h4 {
-    /*font-size: 13px;*/
+    font-size: 1.2em;
     color: #aaa;
 }
 .category .price {
